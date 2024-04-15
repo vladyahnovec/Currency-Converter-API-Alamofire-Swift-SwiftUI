@@ -64,6 +64,9 @@ struct HomeView : View {
                                             .fill(Color.grayColor)
                                             .frame(width: 120, height: 45)
                                             .cornerRadius(10)
+                                        TextField("100", text: $vm.count)
+                                            .padding(.leading, 10)
+                                            .frame(width: 100)
                                     }
                                 }
                                 ZStack {
@@ -118,9 +121,15 @@ struct HomeView : View {
                                             .fill(Color.grayColor)
                                             .frame(width: 120, height: 45)
                                             .cornerRadius(10)
+                                        HStack {
+                                            Text(vm.changeValue)
+                                                .frame(width: 100)
+                                                .padding(.leading,5)
+                                                .font(.custom("Roboto-Regular", size: 15))
+                                            Spacer()
+                                        }
                                     }
                                 }
-                                Text(vm.changeValue)
                                 Button(action: {
                                     vm.changeValue = vm.change()
                                 }) {

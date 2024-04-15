@@ -13,6 +13,8 @@ class ViewModel: ObservableObject {
     @Published var convertedAmount: [String: ValuteItems] = [:]
     
     @Published var changeValue = ""
+    
+    @Published var count = "0"
 
     init() {
         NetworkingManager.shared.fetchData { result in
@@ -30,12 +32,13 @@ class ViewModel: ObservableObject {
           guard let amountValue = amount.first?.value.value,
                 let amountNominal = amount.first?.value.nominal,
                 let convertedAmountValue = convertedAmount.first?.value.value,
+                let countValue = Double(count),
                 let convertedAmountNominal = convertedAmount.first?.value.nominal else {
-              return "Нет данных для конвертации"
+              return "Нет данных"
           }
 
-          let result = (amountValue / Double(amountNominal)) / (convertedAmountValue / Double(convertedAmountNominal))
-          return String(String(result).prefix(4))
+          let result = ((amountValue / Double(amountNominal)) * countValue) / (convertedAmountValue / Double(convertedAmountNominal))
+          return String(String(result).prefix(6))
       }
   }
 

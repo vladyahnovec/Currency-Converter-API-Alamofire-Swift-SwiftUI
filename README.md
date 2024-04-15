@@ -5,3 +5,6 @@ The system detects the country outputs a flag and outputs the final amount. Ther
 <img width="1440" alt="Снимок экрана 2024-04-16 в 01 34 29" src="https://github.com/vladyahnovec/CurrencyConverter/assets/153903831/8dc76541-65c8-4a68-a68c-e9230eba033f">
 <img width="1440" alt="Снимок экрана 2024-04-16 в 01 34 41" src="https://github.com/vladyahnovec/CurrencyConverter/assets/153903831/263db430-8518-4b6e-bdce-3b6f7eae8191">
 <img width="1440" alt="Снимок экрана 2024-04-16 в 01 34 50" src="https://github.com/vladyahnovec/CurrencyConverter/assets/153903831/bdfcd16f-92c3-4b90-b32e-568b6cf7f189">
+
+Working with API:
+<img width="1440" alt="Снимок экрана 2024-04-16 в 01 36 46" src="https://github.com/vladyahnovec/CurrencyConverter/assets/153903831/0e42e480-cf15-411f-843f-51d080491b7b">

@@ -8,3 +8,6 @@ The system detects the country outputs a flag and outputs the final amount. Ther
 
 Working with API:
 <img width="1440" alt="Снимок экрана 2024-04-16 в 01 36 46" src="https://github.com/vladyahnovec/CurrencyConverter/assets/153903831/0e42e480-cf15-411f-843f-51d080491b7b">
+
+Filtering by maximum and minimum price
+<img width="1440" alt="Снимок экрана 2024-04-17 в 22 48 22" src="https://github.com/vladyahnovec/Currency-Converter-API-Alamofire-Swift-SwiftUI/assets/153903831/37a5f624-b6e6-458c-af24-4f6c284ec764">
